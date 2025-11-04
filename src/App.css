@@ -1,0 +1,89 @@
+
+.App {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #ff6b6b 0%, #ee5a24 50%, #c23616 100%);
+  background-attachment: fixed;
+}
+
+.pokemon-card {
+  transition: all 0.3s ease;
+  border: none;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.pokemon-card:hover {
+  transform: translateY(-10px) scale(1.02);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+}
+
+.card-title {
+  font-weight: bold;
+  color: #2c3e50;
+  margin-bottom: 0.5rem;
+}
+
+.text-capitalize {
+  text-transform: capitalize;
+}
+
+.form-control, .form-select {
+  border-radius: 10px;
+  border: 2px solid #e9ecef;
+  transition: all 0.3s ease;
+}
+
+.form-control:focus, .form-select:focus {
+  border-color: #ff6b6b;
+  box-shadow: 0 0 0 0.2rem rgba(255, 107, 107, 0.25);
+}
+
+.btn-outline-danger {
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.badge {
+  font-size: 0.7em;
+  border-radius: 10px;
+}
+
+.modal-content {
+  border-radius: 15px;
+  border: none;
+}
+
+.progress {
+  border-radius: 10px;
+  background-color: #ecf0f1;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .pokemon-card {
+    margin-bottom: 1rem;
+  }
+  
+  .form-control, .form-select {
+    margin-bottom: 0.5rem;
+  }
+}
+
+/* Scroll personalizado */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ff6b6b;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #ee5a24;
+}
