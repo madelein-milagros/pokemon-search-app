@@ -23,7 +23,7 @@ Una aplicación web desarrollada en React que permite buscar y filtrar Pokémon 
 
 ```bash
 # Clonar el repositorio
-git clone https://github.com/TU_USUARIO/pokemon-search-app.git
+git clone https://github.com/madelein-milagros/pokemon-search-app.git
 
 # Instalar dependencias
 npm install
